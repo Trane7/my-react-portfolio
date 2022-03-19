@@ -1,5 +1,5 @@
 import "./topbar.scss"
-import {AccountBox, Mail} from "@material-ui/icons"
+import {GitHub, Mail} from "@material-ui/icons"
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -8,7 +8,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className="left">
           <a href="#intro" className="logo">Portfolio</a>
           <div className="itemContaner"> 
-          <AccountBox className="icon" /> {/* add icons here*/}
+          <GitHub className="icon" /> {/* add icons here*/}
           <a href="https://github.com/Trane7">Github Prof</a>
           </div>
           <div className="itemContaner"> 

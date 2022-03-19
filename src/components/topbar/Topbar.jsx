@@ -9,7 +9,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <a href="#intro" className="logo">Portfolio</a>
           <div className="itemContaner"> 
           <AccountBox className="icon" /> {/* add icons here*/}
-          <a href="https://github.com/Trane7">Github Profile</a>
+          <a href="https://github.com/Trane7">Github Prof</a>
           </div>
           <div className="itemContaner"> 
           <Mail className="icon" /> {/* add icons here*/}

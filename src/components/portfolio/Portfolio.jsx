@@ -5,9 +5,7 @@ export default function Portfolio() {
     <div className= "portfolio" id="portfolio">
       <h1>Portfolio</h1>
       <ul>
-        <li className="active">Featured</li>
-        <li>Porjects</li>
-        <li>Branding/Desires</li>
+        <li className="active">Projects</li>
       </ul>
       <div className="container">
         <div className="item">
@@ -21,6 +19,18 @@ export default function Portfolio() {
         <div className="item">
           <img src="./assets/budget.png" alt="" /> {/* this is where you add the project*/}
           <h3>Budget Tracker</h3>
+        </div>
+        <div className="item">
+          <img src="./assets/weather.png" alt="" /> {/* this is where you add the project*/}
+          <h3>Weather App</h3>
+        </div>
+        <div className="item">
+          <img src="./assets/virtual.png" alt="" /> {/* this is where you add the project*/}
+          <h3>Virtual Notes</h3>
+        </div>
+        <div className="item">
+          <img src="./assets/schedule.png" alt="" /> {/* this is where you add the project*/}
+          <h3>Daily Planner</h3>
         </div>
       </div>
     </div>

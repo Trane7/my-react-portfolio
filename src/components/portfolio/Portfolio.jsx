@@ -9,6 +9,10 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         <div className="item">
+          <img src="./assets/plenty.png" alt="" /> {/* this is where you add the project*/}
+          <h3>Plenty.</h3>
+        </div>
+        <div className="item">
           <img src="./assets/consolethis.png" alt="" /> {/* this is where you add the project*/}
           <h3>Console This</h3>
         </div>
